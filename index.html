@@ -1,32 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+<html>
+  <head>
     <title>LAG SERVICES</title>
-</head>
-<body>
-    <header class="header">
-        <nav class="navbar">
-            <div class="logo">LAG SERVICES</div>
-            <div class="menu">
-                <a href="#" class="menu-item">Home</a>
-                <a href="#" class="menu-item">Services</a>
-                <a href="#" class="menu-item">About</a>
-                <a href="#" class="menu-item">Contact</a>
-            </div>
-        </nav>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
-
-    <section class="main-content">
+    <main>
+      <section class="hero">
         <h1>Welcome to LAG SERVICES</h1>
-        <p>Your one-stop solution for digital services.</p>
-    </section>
-
-    <footer class="footer">
-        <p>&copy; 2023 LAG SERVICES. All rights reserved.</p>
+        <p>We provide top-notch digital services to help your business grow.</p>
+        <a href="#" class="btn">Learn More</a>
+      </section>
+      <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>
+            <img src="web-design.jpg" alt="Web Design">
+            <h3>Web Design</h3>
+            <p>We create beautiful and responsive websites that will make your business stand out.</p>
+          </li>
+          <li>
+            <img src="seo.jpg" alt="SEO">
+            <h3>SEO</h3>
+            <p>We optimize your website to rank higher on search engines and drive more traffic to your site.</p>
+          </li>
+          <li>
+            <img src="social-media.jpg" alt="Social Media">
+            <h3>Social Media</h3>
+            <p>We manage your social media accounts to increase your online presence and engage with your audience.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="about">
+        <h2>About Us</h2>
+        <p>We are a team of experienced professionals who are passionate about helping businesses succeed in the digital world. With our expertise in web design, SEO, and social media, we can help you achieve your goals and grow your business.</p>
+      </section>
+      <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2021 LAG SERVICES. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
